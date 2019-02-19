@@ -6,6 +6,7 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 
+
 function sin() {
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value);
@@ -13,6 +14,11 @@ function sin() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
 }</script>
+function doble() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, 2);
+}
+</script>
 </head>
 <body>
  <h1>Calculadora de BBorja Acebo</h1>
@@ -21,6 +27,7 @@ function sin() {
  <p>
  <button onclick="cube()"> x^3 </button>
  <button onclick="cube4()"> x^4 </button>
+ <button onclick="doble()"> x^2 </button>
  <button onclick="sin()"> sinx </button>
  </p>
 </body>
